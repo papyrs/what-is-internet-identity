@@ -1,0 +1,16 @@
+@mixin block($template-rows) {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: grid;
+
+    --width: calc(100% - var(--padding));
+    grid-template-columns: repeat(2, calc(var(--width) / 2));
+    grid-template-rows: $template-rows;
+    grid-gap: var(--padding);
+  }
+}
+
+@mixin title() {
+  grid-column: 1/3;
+}

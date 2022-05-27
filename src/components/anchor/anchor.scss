@@ -1,0 +1,38 @@
+@use "../../themes/grid";
+
+:host {
+  @include grid.block(auto auto 1fr);
+}
+
+h2, p:last-of-type {
+  @include grid.title;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+
+  margin: 0 auto var(--padding);
+
+  @media (min-width: 768px) {
+    max-width: calc(100% - (2 * var(--padding)));
+  }
+}
+
+ol {
+  margin: calc(4 * var(--padding)) 0;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+li {
+  margin: 0 0 var(--padding);
+}
+
+p:last-of-type {
+  @media (min-width: 768px) {
+    margin:var(--padding) 0;
+  }
+}

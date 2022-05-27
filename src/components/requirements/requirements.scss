@@ -1,0 +1,10 @@
+@use "../../themes/grid";
+
+:host {
+  @include grid.block(auto 1fr);
+}
+
+h2 {
+  @include grid.title;
+}
+
