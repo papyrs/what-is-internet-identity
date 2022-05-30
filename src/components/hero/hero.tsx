@@ -1,6 +1,6 @@
-import { Component, ComponentInterface, h, Host } from '@stencil/core';
-import {IconFingerPrint} from '../../icons/fingerprint';
+import {Component, ComponentInterface, h, Host} from '@stencil/core';
 import {IconLock} from '../../icons/lock';
+import {IconPerson} from '../../icons/person';
 import i18n from '../../stores/i18n.store';
 
 @Component({
@@ -16,11 +16,11 @@ export class Hero implements ComponentInterface {
         <h2>{i18n.state.hero.title}</h2>
 
         <div>
-          <IconLock />
+          <IconPerson />
           <p innerHTML={i18n.state.hero.authentication}></p>
         </div>
         <div>
-          <IconFingerPrint />
+          <IconLock />
           <p innerHTML={i18n.state.hero.password_less}></p>
         </div>
       </Host>

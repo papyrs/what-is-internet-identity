@@ -13,7 +13,8 @@ export const en: I18n = {
     title: 'Devices and Requirements',
     biometrics: 'If your device does not support biometric identification (Face ID, Windows Hello, etc) you can use a security key (YubiKey) or a Ledger to authenticate.',
     android: '<strong>Android</strong> - Works on Chrome with biometrics or other authentication hardware.',
-    ios: '<strong>iOS</strong> - Works on any up-to-date device with Face/Touch ID.'
+    ios: '<strong>Apple</strong> - Works on any up-to-date device with Face/Touch ID.',
+    windows: '<strong>Windows</strong> - Works on any up-to-date device supporting Windows Hello.'
   },
   anchor: {
     title: "Creating an Identity Anchor",

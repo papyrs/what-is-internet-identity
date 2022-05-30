@@ -11,6 +11,7 @@ export interface I18nRequirements {
   biometrics: string;
   android: string;
   ios: string;
+  windows: string;
 }
 
 export interface I18nAnchor {
