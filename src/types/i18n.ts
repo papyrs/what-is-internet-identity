@@ -9,7 +9,6 @@ export interface I18nHero {
 export interface I18nRequirements {
   title: string;
   biometrics: string;
-  key: string;
   android: string;
   ios: string;
 }
@@ -18,7 +17,6 @@ export interface I18nAnchor {
   title: string;
   go_to: string;
   create: string;
-  enter_name: string;
   follow: string;
   reach_out: string;
   internet_identity: string;

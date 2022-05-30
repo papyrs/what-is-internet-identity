@@ -32,7 +32,6 @@ export class Anchor implements ComponentInterface {
         <ol>
           <li innerHTML={i18n.state.anchor.go_to}></li>
           <li>{i18n.state.anchor.create}</li>
-          <li>{i18n.state.anchor.enter_name}</li>
           <li>{i18n.state.anchor.follow}</li>
         </ol>
 

@@ -18,12 +18,11 @@ export class Requirements {
         <div>
           <IconDevices />
           <p>{i18n.state.requirements.biometrics}</p>
-          <p>{i18n.state.requirements.key}</p>
         </div>
         <div>
           <IconSmartphone />
-          <p>{i18n.state.requirements.android}</p>
-          <p>{i18n.state.requirements.ios}</p>
+          <p innerHTML={i18n.state.requirements.android}></p>
+          <p innerHTML={i18n.state.requirements.ios}></p>
         </div>
       </Host>
     );
