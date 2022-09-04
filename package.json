@@ -1,12 +1,12 @@
 {
   "name": "@papyrs/what-is-internet-identity",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A custom element that summarizes what is Internet Identity",
   "author": "David Dal Busco",
   "license": "MIT",
   "homepage": "https://papy.rs",
   "main": "dist/index.cjs.js",
-  "module": "dist/what-is-internet-identity/what-is-internet-identity.esm.js",
+  "module": "dist/index.js",
   "es2015": "dist/esm/index.js",
   "es2017": "dist/esm/index.js",
   "jsnext:main": "dist/esm/index.js",
@@ -30,16 +30,16 @@
     "postbuild": "npm run format:md"
   },
   "devDependencies": {
-    "@stencil/core": "^2.15.2",
+    "@stencil/core": "^2.17.4",
     "@stencil/postcss": "^2.1.0",
     "@stencil/sass": "^1.5.2",
     "@stencil/store": "^1.5.0",
     "@types/jest": "^27.5.1",
-    "autoprefixer": "^10.4.7",
+    "autoprefixer": "^10.4.8",
     "jest": "^28.1.0",
     "jest-cli": "^28.1.0",
     "prettier": "^2.6.2",
-    "prettier-plugin-organize-imports": "^2.3.4",
+    "prettier-plugin-organize-imports": "^3.1.1",
     "puppeteer": "^14.1.1"
   },
   "repository": {
